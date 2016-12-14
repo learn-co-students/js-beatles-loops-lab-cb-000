@@ -15,7 +15,9 @@ return gossip
 }
 
 function iLoveTheBeatles(num){
-  for (var i = 0; i<num; i++)
+  for (var i = 0; i<num; i++){
   var text = []
   text +="I love the Beatles!"
+  }
+  return text
 }
