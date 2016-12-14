@@ -5,3 +5,17 @@ function theBeatlesPlay(musicians, instruments) {
   }
   return band
 }
+
+function johnLennonFacts(facts){
+  var gossip = []
+  for (var i = 0; i<facts.length; i++) {
+    gossip.push(facts[i] + "!!!")
+  }
+return gossip
+}
+
+function iLoveTheBeatles(num){
+  for (var i = 0; i<num; i++)
+  var text = []
+  text +="I love the Beatles!"
+}
