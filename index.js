@@ -8,16 +8,23 @@ function theBeatlesPlay(musicians, instruments) {
 
 function johnLennonFacts(facts){
   var gossip = []
-  for (var i = 0; i<facts.length; i++) {
+  while (i<facts.length) {
+    var i = 0
     gossip.push(facts[i] + "!!!")
+    i++
   }
 return gossip
 }
 
 function iLoveTheBeatles(num){
-  for (var i = 0; i<num; i++){
   var text = []
-  text +="I love the Beatles!"
+  do {
+  text.push("I love the Beatles!")
+  }
+  while (num < 15){
+    for (var i = 1; i<num; i++){
+    text.push ("I love the Beatles!")
+    }
   }
   return text
 }
